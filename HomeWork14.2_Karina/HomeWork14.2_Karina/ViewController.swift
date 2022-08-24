@@ -16,7 +16,7 @@ class MyView: UIView {
     @IBAction func buttonSettingsTapped(_ sender: UIButton) {
         buttonSettingsTapped?(sender)
     }
-    @IBAction func moveButtonTapped( sender: UIButton) {
+    @IBAction func moveButtonTapped(_ sender: UIButton) {
        moveButtonTapped?(sender)
     }
 }
